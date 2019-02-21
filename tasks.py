@@ -36,11 +36,12 @@ def train_agent(agent, env, n_episodes = 1000):
       
       if done: 
         sample_rewards.append(samp_reward)
-        if i_episode%100 == 0:
-          print("Episode {} Finished :) ".format(i_episode))
-          time.sleep(3)
+        #if i_episode%40 == 0:
+          #print("Episode {} Finished :) ".format(i_episode))
+          #time.sleep(3)
         break
-      if i_episode % 100 ==0:
+      if i_episode % 40 ==0:
+        print("Running episode {} :) ".format(i_episode))
         render(env)
     
     if(i_episode >= 100):
