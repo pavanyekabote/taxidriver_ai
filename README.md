@@ -15,9 +15,12 @@ destination location.
 
 <center><img src='./img/taxi.gif' width="150" height="200"/></center>
 
-There are six primitive actions in this domain: (a) four navigation actions that move the taxi
-one square North, South, East, or West, (b) a Pickup action, and (c) a Putdown action. Each action
-is deterministic. There is a reward of −1 for each action and an additional reward of +20 for
+There are six primitive actions in this domain: 
+* (a) four navigation actions that move the taxi one square North, South, East, or West, 
+* (b) a Pickup action, and 
+* (c) a Putdown action. Each action is deterministic. 
+
+There is a reward of −1 for each action and an additional reward of +20 for
 successfully delivering the passenger. There is a reward of −10 if the taxi attempts to execute the
 Putdown or Pickup actions illegally. If a navigation action would cause the taxi to hit a wall, the
 action is a no-op, and there is only the usual reward of −1.
