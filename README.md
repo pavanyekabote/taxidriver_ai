@@ -1,6 +1,8 @@
 # taxidriver_ai
 A reinforcement learning taxi driver agent.
 
+#### Simple Explanation of Environment and Rewards of performing actions on environment.
+
 Here is a 5-by-5 grid world inhabited by a taxi agent. There are four specially-designated locations in
 this world, marked as R(ed), B(lue), G(reen), and Y(ellow). The taxi problem is episodic. In
 each episode, the taxi starts in a randomly-chosen square. There is a passenger at one of the
