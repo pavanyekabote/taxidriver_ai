@@ -11,7 +11,7 @@ there. (To keep things uniform, the taxi must pick up and drop off the passenger
 is already located at the destination!) The episode ends when the passenger is deposited at the
 destination location.
 
-<img src='./img/taxi.gif' width="150" height="200"/>
+<center><img src='./img/taxi.gif' width="150" height="200"/></center>
 
 There are six primitive actions in this domain: (a) four navigation actions that move the taxi
 one square North, South, East, or West, (b) a Pickup action, and (c) a Putdown action. Each action
